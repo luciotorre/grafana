@@ -18,6 +18,7 @@ function (_) {
         'graph':      { path: 'app/panels/graph',      name: 'Graph' },
         'singlestat': { path: 'app/panels/singlestat', name: 'Single stat' },
         'text':       { path: 'app/panels/text',       name: 'Text' },
+        'globe':      { path: 'app/panels/globe',      name: '3D Globe' },
         'dashlist':   { path: 'app/panels/dashlist',   name: 'Dashboard list' },
       },
       new_panel_title: 'no title (click here)',

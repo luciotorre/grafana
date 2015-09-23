@@ -17,9 +17,15 @@
     <link rel="icon" type="image/png" href="[[.AppSubUrl]]/img/fav32.png">
 		<base href="[[.AppSubUrl]]/" />
 
+    <style>
+      @import url(http://cesiumjs.org/Cesium/Build/Cesium/Widgets/widgets.css);
+    </style>
+
+
 		<!-- build:js [[.AppSubUrl]]/app/app.js -->
     <script src="[[.AppSubUrl]]/public/vendor/requirejs/require.js"></script>
     <script src="[[.AppSubUrl]]/public/app/components/require.config.js"></script>
+    <script src="http://cesiumjs.org/Cesium/Build/Cesium/Cesium.js"></script>
     <!-- endbuild -->
   </head>
 
